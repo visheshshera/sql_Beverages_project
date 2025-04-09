@@ -9,7 +9,7 @@
 --1. Demographic Insights (examples)
 
 --a. Who prefers energy drink more? (male/female/non-binary?)
-``` sql select gender,count(*) as 'count' from dim_repondents group by gender order by 'count' desc```
+<pre> ``` sql select gender,count(*) as 'count' from dim_repondents group by gender order by 'count' desc```</pre>
 --Ans = males drinks more
 
 --b. Which age group prefers energy drinks more?
